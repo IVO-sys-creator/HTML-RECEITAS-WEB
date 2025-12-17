@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabor na Web</title>
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <header class="cabecalho">
+        <div class="overlay">
+            <h1>Sabor na Web</h1>
+        </div>
          <img 
             src="img/ChatGPT Image 17 de dez. de 2025, 11_28_01.png"
+            alt="Sabor na Web"
             class="card-imagem"
         >
         <p>Aprenda a cozinhar com nossa seleção de pratos rápidos e saborosos</p>
@@ -34,22 +38,32 @@
 
         <div class="card card-secundario">
             <h2>Salmão Grelhado com Limão</h2>
+
+             <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWK9YfUvfC_dl8gUj0TkJTNKph4kvc1d2r2w&slactose.jpg"
+            class="card-imagem"
+        >
             <p>Opção leve e saudável. O segredo está na marinada rápida e no ponto de grelhar perfeito</p>
             <div class="tags-receitas">
                 <span class="destaque destaque-tempo">Tempo: 20 min.</span>
                 <span class="destaque destaque-dificuldade">Dificuldade: Média</span>
             </div>
-            <a href="#" class="btn-ver-receita">Ver Receita Completa</a>
+              <a href="https://cybercook.com.br/receitas/peixes-e-frutos-do-mar/salmao-grelhado-com-molho-de-limao-10665" class="btn-ver-receita" target="_blank">Ver Receita Completa</a>
         </div>
 
         <div class="card card-terciario">
             <h2>Torta de Frango Cremosa</h2>
+
+            <img 
+            src="https://receitadaboa.com.br/wp-content/uploads/2024/04/iStock-1343225612-1.jpg"
+            class="card-imagem"
+        >
             <p>Ideal para um almoço em família ou lanche. Recheio rico e massa que derrete na boca.</p>
             <div class="tags-receita">
                 <span class="destaque destaque-tempo">Tempo 1h 15min.</span>
                 <span class="destaque destaque-dificuldade">Dificuldade: Difícil</span>
             </div>
-            <a href="#" class="btn-ver-receita">Ver receita completa.</a>
+             <a href="https://receitadaboa.com.br/receitas/torta-de-frango-cremosa-uma-delicia-irresistivel/" class="btn-ver-receita" target="_blank">Ver Receita Completa</a>
         </div>
 
     </main>
