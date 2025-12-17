@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor na Web</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    
+    <header class="cabecalho">
+         <img 
+            src="img/ChatGPT Image 17 de dez. de 2025, 11_28_01.png"
+            class="card-imagem"
+        >
+        <p>Aprenda a cozinhar com nossa seleção de pratos rápidos e saborosos</p>
+    </header>
+
+    <main class="card-container">
+        <div class="card card-primario">
+            <h2>Bolo de Chocolate Clássico</h2>
+            <img 
+            src="https://amorpelacomida.com.br/wp-content/uploads/2022/06/Bolo-de-chocolate-para-aniversario-simples-sem-gluten-sem-lactose.jpg"
+            class="card-imagem"
+        >
+            <p>Um bolo úmido e delicioso, perfeito para o café da tarde. Receita simples e à prova de erros</p>
+            <div class="tags-receitas">
+                <span class="destaque destaque-tempo">Tempo: 45min.</span>
+                <span class="destaque destaque-dificuldade">Dificuldade: Fácil</span>
+            </div>
+            <a href="https://receitas.band.com.br/receita/bolo-fofinho-de-chocolate-band-receitas-id-11795" class="btn-ver-receita" target="_blank">Ver Receita Completa</a>
+
+        </div>
+
+        <div class="card card-secundario">
+            <h2>Salmão Grelhado com Limão</h2>
+            <p>Opção leve e saudável. O segredo está na marinada rápida e no ponto de grelhar perfeito</p>
+            <div class="tags-receitas">
+                <span class="destaque destaque-tempo">Tempo: 20 min.</span>
+                <span class="destaque destaque-dificuldade">Dificuldade: Média</span>
+            </div>
+            <a href="#" class="btn-ver-receita">Ver Receita Completa</a>
+        </div>
+
+        <div class="card card-terciario">
+            <h2>Torta de Frango Cremosa</h2>
+            <p>Ideal para um almoço em família ou lanche. Recheio rico e massa que derrete na boca.</p>
+            <div class="tags-receita">
+                <span class="destaque destaque-tempo">Tempo 1h 15min.</span>
+                <span class="destaque destaque-dificuldade">Dificuldade: Difícil</span>
+            </div>
+            <a href="#" class="btn-ver-receita">Ver receita completa.</a>
+        </div>
+
+    </main>
+<footer class="rodape">
+    <p>Explorando o CS Flexbox e cores para um menu de receitas.</p>
+</footer>
+</body>
+</html>
